@@ -5,27 +5,43 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <!-- link -->
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
 
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="./lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Prixima BS5 Template</title>
+    <title>Welcome To | Triple E Management Institute</title>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
-
 
     <!-- TOP NAV -->
     <div class="top-nav" id="home">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-auto">
-                    <p> <i class='bx bxs-envelope'></i> debra.holt@example.com</p>
-                    <p> <i class='bx bxs-phone-call'></i> (219) 555-0114</p>
+                    <p> <i class='bx bxs-envelope'></i> tharthargirl@gmail.com</p>
+                    <p> <i class='bx bxs-phone-call'></i> +959 450 237 053</p>
                 </div>
                 <div class="col-auto social-icons">
                     <a href="#"><i class='bx bxl-facebook'></i></a>
@@ -36,11 +52,15 @@
             </div>
         </div>
     </div>
+    
 
     <!-- BOTTOM NAV -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Prixima<span class="dot">.</span></a>
+            <a class="navbar-brand w-80 h-30 m-0 p-0 d-flex align-items-center justify-content-center" href="#">
+                <img src="./img/logo1.png" class="img-fluid" style="width:100px; justify-content: center; align-items: center; width: 80px; margin:-3px 0px 0px 0px;">
+                <h1 class="m-0 text-success" style="font-size: 30px; justify-content: center; align-items: center;">Triple <font class="text-danger">E</font> </h1>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,19 +68,29 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <div class="nav-item dropdown">
+                        <a href="courses.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Courses</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="courses.html" class="dropdown-item">ABE</a>
+                            <a href="courses.html" class="dropdown-item">LCCI</a>
+                            <a href="courses.html" class="dropdown-item">PDP</a>
+                            <a href="courses.html" class="dropdown-item">English</a>
+                            <a href="courses.html" class="dropdown-item">Computer</a>
+                        </div>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="event&new.html">Event & News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="faq.html">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#team">Team</a>
+                        <a class="nav-link" href="team.html">Team</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#reviews">Reviews</a>
@@ -69,7 +99,7 @@
                         <a class="nav-link" href="#blog">Blog</a>
                     </li>
                 </ul>
-                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contact</a>
+                <a href="contact.html" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contact</a>
             </div>
         </div>
     </nav>
@@ -80,10 +110,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center text-white">
-                        <h6 class="text-white text-uppercase">design Driven for professional</h6>
-                        <h1 class="display-3 my-4">We craft digital<br />experiances</h1>
-                        <a href="#" class="btn btn-brand">Get Started</a>
-                        <a href="#" class="btn btn-outline-light ms-3">Our work</a>
+                        <h6 class="section-title text-white text-capitalize mb-3 animated slideInDown">The First Management Institute in Rakhine</h6>
+                        <h1 style="font-size: 50px;" class="display-3 text-white mb-2 animated slideInDown">Triple E Management Institute</h1>
+                        <a href="" class="btn btn-danger py-md-3 px-md-5 me-3 animated slideInLeft">Our Class</a>
+                        <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Get Start</a>
                     </div>
                 </div>
             </div>
@@ -91,412 +121,135 @@
         <div class="slide slide2">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-10 offset-lg-1 text-white">
-                        <h6 class="text-white text-uppercase">We craft digital experiances</h6>
-                        <h1 class="display-3 my-4">Design Driven For <br />Professionals</h1>
-                        <a href="#" class="btn btn-brand">Get Started</a>
-                        <a href="#" class="btn btn-outline-light ms-3">Our work</a>
+                    <div class="col-12 text-center text-white">
+                        <h6 class="section-title text-white text-capitalize mb-3 animated slideInDown">The First Management Institute in Rakhine</h6>
+                        <h1 style="font-size: 50px;" class="display-3 text-white mb-2 animated slideInDown">Triple E Management Institute</h1>
+                        <a href="" class="btn btn-danger py-md-3 px-md-5 me-3 animated slideInRight">Our Class</a>
+                        <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Get Start</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide slide3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center text-white">
+                        <h6 class="section-title text-white text-capitalize mb-3 animated slideInDown">The First Management Institute in Rakhine</h6>
+                        <h1 style="font-size: 50px;" class="display-3 text-white mb-2 animated slideInDown">Triple E Management Institute</h1>
+                        <a href="" class="btn btn-danger py-md-3 px-md-5 me-3 animated slideInLeft">Our Class</a>
+                        <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Get Start</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide slide4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center text-white">
+                        <h6 class="section-title text-white text-capitalize mb-3 animated slideInDown">The First Management Institute in Rakhine</h6>
+                        <h1 style="font-size: 50px;" class="display-3 text-white mb-2 animated slideInDown">Triple E Management Institute</h1>
+                        <a href="" class="btn btn-danger py-md-3 px-md-5 me-3 animated slideInRight">Our Class</a>
+                        <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Get Start</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- ABOUT -->
-    <section id="about">
+    <!-- Newsletter Start -->
+    <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 border rounded p-1">
+                <div class="border rounded text-center p-1">
+                    <div class="bg-white rounded text-center p-5">
+                        <h4 class="mb-4">Subscribe Our <span class="text-primary text-uppercase">Newsletter</span></h4>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
+                            <button type="submit" class="btn btn-success py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter Start -->
+    
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
+        <div class="container pb-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="bg-light rounded p-4">
+                        <a href="index.html"><h1 class="text-success text-uppercase mb-3">Triple <font class="text-danger">E</font> </h1></a>
+                        <p class="text-dark mb-0">
+                            Download <a class="text-primary fw-medium" href="">Triple E – Premium Version</a>, build a professional website for your hotel business and grab the attention of new visitors upon your site’s launch.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h6 class="section-title text-start text-danger text-uppercase mb-4">Contact</h6>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>No 8. Main Road, Sittwe, Rakhine</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+959 450 237 053</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>tharthargirl@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12">
+                    <div class="row gy-5 g-4">
+                        <div class="col-md-6">
+                            <h6 class="section-title text-start text-danger text-uppercase mb-4">Company</h6>
+                            <a class="btn btn-link" href="about.html">About Us</a>
+                            <a class="btn btn-link" href="contact.html">Contact Us</a>
+                            <a class="btn btn-link" href="faq.html">Privacy Policy</a>
+                            <a class="btn btn-link" href="team.html">Terms & Condition</a>
+                            <a class="btn btn-link" href="#">Support</a>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="section-title text-start text-danger text-uppercase mb-4">Services</h6>
+                            <a class="btn btn-link" href="courses.html"> Training </a>
+                            <a class="btn btn-link" href=""> services</a>
+                            <a class="btn btn-link" href="">On Job</a>
+                            <a class="btn btn-link" href="">Event & Party</a>
+                            <a class="btn btn-link" href="">Team and Condition</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-5 py-5">
-                    <div class="row">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Triple <font class="text-danger">E</font> </a>, All Right Reserved. 
+                        
 
-                        <div class="col-12">
-                            <div class="info-box">
-                                <img src="img/icon6.png" alt="">
-                                <div class="ms-4">
-                                    <h5>Digital Marketing</h5>
-                                    <p>It is a long established fact that a reader will be distracted by the readable
-                                        content of a page </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 mt-4">
-                            <div class="info-box">
-                                <img src="img/icon4.png" alt="">
-                                <div class="ms-4">
-                                    <h5>E-mail Marketing</h5>
-                                    <p>It is a long established fact that a reader will be distracted by the readable
-                                        content of a page </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 mt-4">
-                            <div class="info-box">
-                                <img src="img/icon5.png" alt="">
-                                <div class="ms-4">
-                                    <h5>Buisness Marketing</h5>
-                                    <p>It is a long established fact that a reader will be distracted by the readable
-                                        content of a page </p>
-                                </div>
-                            </div>
-                        </div>
+                        Designed By <a class="border-bottom" href="">Triple <font class="text-danger">E</font></a>
                     </div>
-                </div>
-                <div class="col-lg-5">
-                    <img src="img/about.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- MILESTONE -->
-    <section id="milestone">
-        <div class="container">
-            <div class="row text-center justify-content-center gy-4">
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">90K+</h1>
-                    <p class="mb-0">Happy Clients</p>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">45M</h1>
-                    <p class="mb-0">Lines of code</p>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">190</h1>
-                    <p class="mb-0">Total Downloads</p>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <h1 class="display-4">380K</h1>
-                    <p class="mb-0">YouTube Subscribers</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services" class="text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="intro">
-                        <h6>Our Services</h6>
-                        <h1>What We Do?</h1>
-                        <p class="mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                            roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                        <img src="img/icon1.png" alt="">
-                        <h5>Digital Marketing</h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                        <img src="img/icon2.png" alt="">
-                        <h5>Logo Designing</h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                        <img src="img/icon3.png" alt="">
-                        <h5>Buisness consulting</h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                        <img src="img/icon4.png" alt="">
-                        <h5>Videography</h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                        <img src="img/icon5.png" alt="">
-                        <h5>Brand Identity</h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service">
-                        <img src="img/icon6.png" alt="">
-                        <h5>Ethical Hacking</h5>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-light" id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="intro">
-                        <h6>Work</h6>
-                        <h1>Successful projects</h1>
-                        <p class="mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                            roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="projects-slider" class="owl-theme owl-carousel">
-            <div class="project">
-                <div class="overlay"></div>
-                <img src="img/project1.jpg" alt="">
-                <div class="content">
-                    <h2>Consulting Marketing</h2>
-                    <h6>Website Design</h6>
-                </div>
-            </div>
-            <div class="project">
-                <div class="overlay"></div>
-                <img src="img/project2.jpg" alt="">
-                <div class="content">
-                    <h2>Consulting Marketing</h2>
-                    <h6>Website Design</h6>
-                </div>
-            </div>
-            <div class="project">
-                <div class="overlay"></div>
-                <img src="img/project3.jpg" alt="">
-                <div class="content">
-                    <h2>Consulting Marketing</h2>
-                    <h6>Website Design</h6>
-                </div>
-            </div>
-            <div class="project">
-                <div class="overlay"></div>
-                <img src="img/project4.jpg" alt="">
-                <div class="content">
-                    <h2>Consulting Marketing</h2>
-                    <h6>Website Design</h6>
-                </div>
-            </div>
-            <div class="project">
-                <div class="overlay"></div>
-                <img src="img/project5.jpg" alt="">
-                <div class="content">
-                    <h2>Consulting Marketing</h2>
-                    <h6>Website Design</h6>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="team">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="intro">
-                        <h6>Team</h6>
-                        <h1>Team Members</h1>
-                        <p class="mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                            roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-8">
-                    <div class="team-member">
-                        <div class="image">
-                            <img src="img/team_1.jpg" alt="">
-                            <div class="social-icons">
-                                <a href="#"><i class='bx bxl-facebook'></i></a>
-                                <a href="#"><i class='bx bxl-twitter'></i></a>
-                                <a href="#"><i class='bx bxl-instagram'></i></a>
-                                <a href="#"><i class='bx bxl-pinterest'></i></a>
-                            </div>
-                            <div class="overlay"></div>
-                        </div>
-
-                        <h5>Marvin McKinney</h5>
-                        <p>Marketing Coordinator</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-8">
-                    <div class="team-member">
-                        <div class="image">
-                            <img src="img/team_2.jpg" alt="">
-                            <div class="social-icons">
-                                <a href="#"><i class='bx bxl-facebook'></i></a>
-                                <a href="#"><i class='bx bxl-twitter'></i></a>
-                                <a href="#"><i class='bx bxl-instagram'></i></a>
-                                <a href="#"><i class='bx bxl-pinterest'></i></a>
-                            </div>
-                            <div class="overlay"></div>
-                        </div>
-
-                        <h5>Kathryn Murphy</h5>
-                        <p>Ethical Hacker</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-8">
-                    <div class="team-member">
-                        <div class="image">
-                            <img src="img/team_3.jpg" alt="">
-                            <div class="social-icons">
-                                <a href="#"><i class='bx bxl-facebook'></i></a>
-                                <a href="#"><i class='bx bxl-twitter'></i></a>
-                                <a href="#"><i class='bx bxl-instagram'></i></a>
-                                <a href="#"><i class='bx bxl-pinterest'></i></a>
-                            </div>
-                            <div class="overlay"></div>
-                        </div>
-
-                        <h5>Darrell Steward</h5>
-                        <p>Software Developer</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-light" id="reviews">
-
-        <div class="owl-theme owl-carousel reviews-slider container">
-            <div class="review">
-                <div class="person">
-                    <img src="img/team_1.jpg" alt="">
-                    <h5>Ralph Edwards</h5>
-                    <small>Market Development Manager</small>
-                </div>
-                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
-                    ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
-                    enim nam exercitationem optio ducimus!</h3>
-                <div class="stars">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class="bx bxs-star-half"></i>
-                </div>
-                <i class='bx bxs-quote-alt-left'></i>
-            </div>
-            <div class="review">
-                <div class="person">
-                    <img src="img/team_2.jpg" alt="">
-                    <h5>Ralph Edwards</h5>
-                    <small>Market Development Manager</small>
-                </div>
-                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
-                    ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
-                    enim nam exercitationem optio ducimus!</h3>
-                <div class="stars">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class="bx bxs-star-half"></i>
-                </div>
-                <i class='bx bxs-quote-alt-left'></i>
-            </div>
-            <div class="review">
-                <div class="person">
-                    <img src="img/team_3.jpg" alt="">
-                    <h5>Ralph Edwards</h5>
-                    <small>Market Development Manager</small>
-                </div>
-                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
-                    ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
-                    enim nam exercitationem optio ducimus!</h3>
-                <div class="stars">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class="bx bxs-star-half"></i>
-                </div>
-                <i class='bx bxs-quote-alt-left'></i>
-            </div>
-        </div>
-    </section>
-
-    <section id="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="intro">
-                        <h6>Blog</h6>
-                        <h1>Blog Posts</h1>
-                        <p class="mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                            roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <img src="img/project5.jpg" alt="">
-                        <a href="#" class="tag">Web Design</a>
-                        <div class="content">
-                            <small>01 Dec, 2022</small>
-                            <h5>Web Design trends in 2022</h5>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from</p>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <img src="img/project4.jpg" alt="">
-                        <a href="#" class="tag">Programming</a>
-                        <div class="content">
-                            <small>01 Dec, 2022</small>
-                            <h5>Web Design trends in 2022</h5>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from</p>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <img src="img/project2.jpg" alt="">
-                        <a href="#" class="tag">Marketing</a>
-                        <div class="content">
-                            <small>01 Dec, 2022</small>
-                            <h5>Web Design trends in 2022</h5>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="footer-top text-center">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 text-center">
-                        <h4 class="navbar-brand">Prixima<span class="dot">.</span></h4>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                            classical Latin literature from</p>
-                        <div class="col-auto social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram'></i></a>
-                            <a href="#"><i class='bx bxl-pinterest'></i></a>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQA</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer-bottom text-center">
-            <p class="mb-0">Copyright@2020. All rights Reserved</p>
-        </div>
-    </footer>
+    </div>
+    <!-- Footer End -->
+
+
+
+
+
+
+
 
 
     <!-- Modal -->
@@ -507,7 +260,7 @@
                     <div class="container-fluid">
                         <div class="row gy-4">
                             <div class="col-lg-4 col-sm-12 bg-cover"
-                                style="background-image: url(img/c2.jpg); min-height:300px;">
+                                style="background-image: url(img/21.jpg); min-height:300px;">
                                 <div>
                                     
                                 </div>
@@ -520,17 +273,17 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <label for="userName" class="form-label">First name</label>
-                                        <input type="text" class="form-control" placeholder="Jon" id="userName"
+                                        <input type="text" class="form-control" placeholder="enter your first name" id="userName"
                                             aria-describedby="emailHelp">
                                     </div>
                                     <div class="col-lg-6">
                                         <label for="userName" class="form-label">Last name</label>
-                                        <input type="text" class="form-control" placeholder="Doe" id="userName"
+                                        <input type="text" class="form-control" placeholder="enter your last name" id="userName"
                                             aria-describedby="emailHelp">
                                     </div>
                                     <div class="col-12">
                                         <label for="userName" class="form-label">Email address</label>
-                                        <input type="email" class="form-control" placeholder="Johndoe@example.com" id="userName"
+                                        <input type="email" class="form-control" placeholder="enter your email" id="userName"
                                             aria-describedby="emailHelp">
                                     </div>
                                     <div class="col-12">
@@ -557,12 +310,20 @@
 
 
 
-
+ <!-- JavaScript Libraries -->
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/app.js"></script>
+
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 </body>
 
 </html>
